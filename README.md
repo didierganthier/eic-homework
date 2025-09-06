@@ -49,13 +49,4 @@ Veuillez entrer un nom valide.
 - Incluez des commentaires expliquant le but de chaque fonction.
 - Testez votre programme avec au moins un cas valide et un cas invalide (par exemple, une entrée non numérique).
 
-**Esquisse de solution** (pour votre référence, pas pour les étudiants) :
-- **Fonctions** :
-  - `get_time_greeting()` : Retourne "Bonjour" ou "Bonsoir" selon `datetime.now().hour < 18`.
-  - `calculate_bill(bill_amounts, tip_percent=0.15)` : Additionne les montants des factures et ajoute le pourboire, retourne les deux montants.
-- **Boucle** : Utilisez une boucle `for` ou `while` pour collecter les noms et montants des factures pour le nombre de personnes spécifié.
-- **Entrée** : Demandez le nombre de personnes, les noms et les montants des factures. Validez les entrées avec `try-except` pour les nombres et vérifiez les noms non vides.
-- **Sortie** : Affichez les salutations et contributions à la facture dans une boucle, puis montrez la facture totale et le pourboire.
-- **Défi** : Ajoutez une invite pour le pourcentage de pourboire, validez-le (0 ≤ pourboire ≤ 50), et passez-le à `calculate_bill`.
-
 
